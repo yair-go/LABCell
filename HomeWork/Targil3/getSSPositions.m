@@ -12,4 +12,8 @@ l=(la.*lb)>0;   % l marks the points to be projected
 x=x + 1.5*l*R- R;
 y=y+2*l.*(sign(y).*h/2-y);
 
-msLocations=x+sqrt(-1)*y;
+msLocations = x+sqrt(-1)*y;
+Users_X = real(msLocations);
+Users_Y = imag(msLocations);
+
+end
