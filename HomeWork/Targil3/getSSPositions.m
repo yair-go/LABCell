@@ -1,4 +1,4 @@
-function msLocations = getSSPositions(N, R)
+function [Users_X,Users_y] = getSSPositions(N, R)
 %select N random place in an hexa of height R 
 
 R=R/2/sin(pi/3);
